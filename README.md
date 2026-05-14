@@ -36,7 +36,12 @@ The system has three parts that work together in real time:
 
 ---
 
-## How to run
+## Setting up on a fresh machine
+
+- **Windows, from scratch (no dev tools installed)** — follow the step-by-step guide in [`docs/SETUP_WINDOWS.md`](docs/SETUP_WINDOWS.md).
+- **Want an AI assistant to do the setup for you?** Paste [`docs/AI_SETUP_PROMPT.md`](docs/AI_SETUP_PROMPT.md) into Claude Code / Cursor / Copilot / etc. and it will install and configure everything.
+
+## How to run (short version, if you already have Python + git)
 
 ### 1. Install Python dependencies
 

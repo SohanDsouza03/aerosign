@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AeroSign · Sign In</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body class="login-body">
+
+  <div class="login-shell">
+    <div class="login-art">
+      <div class="art-stack">
+        <div class="art-glow"></div>
+        <div class="drone-silhouette" aria-hidden="true">
+          <span class="prop p1"></span>
+          <span class="prop p2"></span>
+          <span class="prop p3"></span>
+          <span class="prop p4"></span>
+          <span class="hub"></span>
+        </div>
+      </div>
+      <div class="art-copy">
+        <span class="eyebrow">Hand-gesture flight simulator</span>
+        <h1>Fly the sky<br/>with a wave of your hand.</h1>
+        <p>AeroSign turns a webcam into a touch-free drone controller using
+        real-time hand-landmark AI, then renders a 3D world you can pilot in
+        the browser.</p>
+      </div>
+    </div>
+
+    <div class="login-card">
+      <div class="brand">
+        <span class="brand-logo big">&#9992;</span>
+        <span class="brand-name">AeroSign</span>
+        <span class="brand-sub">Flying AI 3D Drone Simulator</span>
+      </div>
+
+      <form method="POST" class="login-form" autocomplete="off">
+        <label>
+          <span>Username</span>
+          <input name="username" type="text" placeholder="megha" required autofocus />
+        </label>
+        <label>
+          <span>Password</span>
+          <input name="password" type="password" placeholder="drone123" required />
+        </label>
+        {% if error %}
+          <div class="form-error">{{ error }}</div>
+        {% endif %}
+        <button type="submit">Take Off &rarr;</button>
+        <p class="hint">Demo: <code>megha / drone123</code> &middot; <code>keerti / drone123</code></p>
+      </form>
+
+      <footer class="login-footer">
+        <p>SDM College of Arts, Science and Commerce, Honnavar — BCA</p>
+        <p>Megha Naik &middot; Keerti Naik &middot; Guide: Mr. Prasanna Shet</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

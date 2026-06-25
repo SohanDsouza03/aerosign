@@ -3,7 +3,7 @@
 > An AI-powered 3D simulator for realistic drone flight and control using hand gestures.
 > *AeroSign* = aerial flight + hand signs.
 >
-> **Submitted by:** Megha Naik (U02JH23S0012), Keerti Naik (U02JH23S0122)
+> **Submitted by:** sohan Naik (U02JH23S0012), Keerti Naik (U02JH23S0122)
 > **Guide:** Mr. Prasanna Shet, HOD — Department of BCA
 > **Institution:** SDM College of Arts, Science and Commerce, Honnavar
 
@@ -59,7 +59,7 @@ python3 -m venv .venv
 You should see:
 
 ```
-Open http://localhost:5000/ — log in with megha / drone123
+Open http://localhost:5000/ — log in with sohan / sohan03
 ```
 
 ### 3. Open in a browser
@@ -68,8 +68,8 @@ Go to **http://localhost:5000/** and log in.
 
 | Username | Password    |
 |----------|-------------|
-| megha    | drone123    |
-| keerti   | drone123    |
+| sohan    | sohan03    |
+| keerti   | sohan03    |
 | admin    | admin       |
 
 Allow webcam access when the browser prompts (the server reads the camera, not the browser — but a good well-lit camera helps gesture accuracy).
@@ -99,7 +99,7 @@ Hold your hand in front of the camera and form the gestures above. The drone in 
 ## Project structure
 
 ```
-megha-proj/
+sohan-proj/
 ├── backend/
 │   ├── app.py                  # Flask + WebSocket server, MJPEG stream
 │   └── gesture_recognizer.py   # MediaPipe hand landmarks → gesture

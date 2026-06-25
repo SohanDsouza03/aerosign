@@ -135,8 +135,8 @@ def ensure_gesture_thread_started() -> None:
 
 # A trivial demo "user database". Real auth is out of scope for this project.
 DEMO_USERS = {
-    "megha": "drone123",
-    "keerti": "drone123",
+    "sohan": "sohan03",
+    "keerti": "sohan03",
     "admin": "admin",
 }
 
@@ -157,7 +157,7 @@ def login():
         if DEMO_USERS.get(username) == password:
             session["user"] = username
             return redirect(url_for("simulator"))
-        error = "Invalid username or password. Try megha / drone123."
+        error = "Invalid username or password. Try sohan / sohan03."
     return render_template("login.html", error=error)
 
 
@@ -218,5 +218,5 @@ def ws_gesture(ws):
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    print("Open http://localhost:5000/ — log in with megha / drone123")
+    print("Open http://localhost:5000/ — log in with sohan / sohan03")
     app.run(host="0.0.0.0", port=5000, debug=False, threaded=True)

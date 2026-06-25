@@ -15,7 +15,7 @@ You are setting up a project called "AeroSign" on a fresh Windows 10/11 machine 
 - Stack: Python 3.10/3.11/3.12 backend (Flask + flask-sock + OpenCV + MediaPipe), Three.js frontend served from Flask.
 - Runs entirely on localhost. No cloud, no database. Webcam-based.
 - Default port: 5000.
-- Default login: username `megha`, password `drone123`.
+- Default login: username `sohan`, password `sohan03`.
 
 # Hard rules
 - Use Windows-native paths and commands (`cmd.exe` or PowerShell). Never assume bash, WSL, or Linux paths.
@@ -93,7 +93,7 @@ Windows blocks desktop apps from using the camera by default on some installs.
 
 # Step 9 — Open the browser
 1. Tell the user to open http://localhost:5000/ in Chrome, Edge, or Firefox.
-2. Log in with `megha` / `drone123`.
+2. Log in with `sohan` / `sohan03`.
 3. The live hand panel on the right should show their hand with green landmarks. The 3D scene should show a green drone and orange rings.
 4. If the 3D scene is blank, the Three.js CDN (unpkg.com) is being blocked. Tell the user to try a different network.
 
@@ -104,7 +104,7 @@ Print this exact handover summary:
 AeroSign is running.
 
 Open in browser:   http://localhost:5000/
-Login:             megha / drone123
+Login:             sohan / sohan03
 Stop server:       press Ctrl+C in the terminal window
 Restart later:     cd %USERPROFILE%\Documents\aerosign && .venv\Scripts\activate && python backend\app.py
 

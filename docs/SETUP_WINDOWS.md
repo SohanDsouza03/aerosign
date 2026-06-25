@@ -147,7 +147,7 @@ python backend\app.py
 You should see:
 
 ```
-Open http://localhost:5000/ — log in with megha / drone123
+Open http://localhost:5000/ — log in with sohan / sohan03
  * Running on http://127.0.0.1:5000
 ```
 
@@ -160,8 +160,8 @@ Open http://localhost:5000/ — log in with megha / drone123
 1. Open **Chrome**, **Edge**, or **Firefox**.
 2. Go to **http://localhost:5000/**
 3. Log in:
-   - Username: `megha`
-   - Password: `drone123`
+   - Username: `sohan`
+   - Password: `sohan03`
 4. The first time, Windows may ask if you want to allow the app to use your camera — click **Allow**. (The webcam is read by Python, not the browser, so the browser itself won't prompt.)
 5. Hold your hand in front of the camera and fly!
 

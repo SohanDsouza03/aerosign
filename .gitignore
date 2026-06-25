@@ -6,3 +6,6 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+venv/
+venv/
+venv/

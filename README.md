@@ -3,11 +3,6 @@
 > An AI-powered 3D simulator for realistic drone flight and control using hand gestures.
 > *AeroSign* = aerial flight + hand signs.
 >
-> **Submitted by:** sohan Naik (U02JH23S0012), Keerti Naik (U02JH23S0122)
-> **Guide:** Mr. Prasanna Shet, HOD — Department of BCA
-> **Institution:** SDM College of Arts, Science and Commerce, Honnavar
-
----
 
 ## What it does
 

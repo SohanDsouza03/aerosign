@@ -30,6 +30,18 @@ The system has three parts that work together in real time:
 | Thumb + pinky ("Y" / hang-loose) | Land          |
 
 ---
+## ✋ Hand Gestures and Controls
+
+| Hand Gesture | Finger Position | Drone Action | Description |
+|--------------|-----------------|--------------|-------------|
+| ✋ Open Palm | All 5 fingers extended | Hover | Keeps the drone stable in the air without moving. |
+| ✊ Closed Fist | All fingers folded | Move Forward | Drone flies straight ahead. |
+| ✌️ Peace Sign | Index and middle fingers extended | Move Backward | Drone moves backward. |
+| ☝️ Index Finger | Only index finger extended | Ascend | Drone gains altitude (moves upward). |
+| 👍 Thumb | Only thumb extended | Descend | Drone decreases altitude (moves downward). |
+| 🤟 Three Fingers | Index, middle and ring fingers extended | Yaw Left | Drone rotates left without changing position. |
+| 🖖 Four Fingers | Four fingers extended (thumb folded) | Yaw Right | Drone rotates right without changing position. |
+| 🤙 Thumb + Pinky | Thumb and little finger extended | Land | Safely lands the drone on the ground. |
 
 ## Setting up on a fresh machine
 

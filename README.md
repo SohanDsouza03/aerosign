@@ -64,8 +64,8 @@ Go to **http://localhost:5000/** and log in.
 | Username | Password    |
 |----------|-------------|
 | sohan    | sohan03    |
-| keerti   | sohan03    |
-| admin    | admin       |
+| sid      | sid03      |
+| admin    | admin      |
 
 Allow webcam access when the browser prompts (the server reads the camera, not the browser — but a good well-lit camera helps gesture accuracy).
 

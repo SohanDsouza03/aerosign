@@ -136,7 +136,7 @@ def ensure_gesture_thread_started() -> None:
 # A trivial demo "user database". Real auth is out of scope for this project.
 DEMO_USERS = {
     "sohan": "sohan03",
-    "keerti": "sohan03",
+    "siddarth": "sid01",
     "admin": "admin",
 }
 
